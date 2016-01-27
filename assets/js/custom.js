@@ -528,11 +528,13 @@
             //Prevent multi clicking
             $SubmitBtn.parent().fadeOut('fast');
 
+            console.log("test")
             //Send post request
             $.ajax({
-                type: "POST",
-                url: Action,
-                data: values,
+                url: "http://formspree.io/s.molhuijsen@gmail.com",
+                dataType:"json",
+                type:"POST",
+                data: {message: "hello!"},
                 error: function (xhr, error) {
                     $Loader.hide();
                     $AjaxError.fadeIn('fast');
