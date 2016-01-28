@@ -531,7 +531,7 @@
 
             //Send post request
             $.ajax({
-                url: "http://formspree.io/s.molhuijsen@gmail.com",
+                url: "https://formspree.io/s.molhuijsen@gmail.com",
                 dataType:"json",
                 type:"POST",
                 data: {naam: $("#formname").val(), email: $("#formmail").val(), Bedrijf: $("#formcompany").val(), Bericht: $("#formmessage").val()},
