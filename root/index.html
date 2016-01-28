@@ -1,0 +1,545 @@
+ <!--
+
+ /$$   /$$           /$$ /$$                     /$$$$$$                  /$$
+| $$  | $$          | $$| $$                    /$$__  $$                | $$
+| $$  | $$  /$$$$$$ | $$| $$  /$$$$$$          | $$  \__/  /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$
+| $$$$$$$$ /$$__  $$| $$| $$ /$$__  $$         | $$       /$$__  $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$__  $$| $$$$$$$$| $$| $$| $$  \ $$         | $$      | $$  \ $$| $$  | $$| $$$$$$$$| $$  \__/
+| $$  | $$| $$_____/| $$| $$| $$  | $$         | $$    $$| $$  | $$| $$  | $$| $$_____/| $$
+| $$  | $$|  $$$$$$$| $$| $$|  $$$$$$//$$      |  $$$$$$/|  $$$$$$/|  $$$$$$$|  $$$$$$$| $$
+|__/  |__/ \_______/|__/|__/ \______/| $/       \______/  \______/  \_______/ \_______/|__/
+                                     |_/
+
+
+    Hey, welcome, if you see this, you are probably a developer.
+    if you see some weird things in my code that need some attention please let me know,
+    this way i can improve my coding skills and maybe we can program some things togheter.
+
+    Now, lets fly trough my code...
+                                   ___
+                                     \  \
+                                      \__\
+                                    ,/   /
+                <\  />            ,/    /
+                 \\//           ,/     /
+              ._  ( ``-..     ,/      /
+       <\  /> | ```-..   ``-./       <
+        \\//  |       ``-..  ``-.     \
+         ( ``-:./-.        ``-..O      \
+        //-.    `-.`:-.   O      ``-..  \
+       </   `-..   `-. `-..   O       ``-\.
+            .-' `-...O     `-..    O       ``-..          /`-.
+ .       .-''                   `-..     O       ``-..    /   /
+ \\  .-''      ___ ___ ___ ___ __ __`_._      O     __)`./   /
+ \\'     ,.--'                         `-..       /   \ )`./
+  `\..--'                                  `-..   ``----'  `.
+                                               ``,-...       `.
+                                              ,-'    ,-`-...   )
+                                           .-'    ,-'       ``` `-..
+                                            `-..-'                  -
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sven Molhuijsen</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" id="isotope-css" href="assets/css/isotope.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.easy-pie-chart.css" media="screen" >
+	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" media="screen" >
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css" media="screen">
+	<link rel="stylesheet" href="style.css" media="all">
+	<link rel="stylesheet" href="assets/css/responsive.css" media="all" >
+</head>
+<!--*********************body*****************************-->
+<body>
+		<!-- loader -->
+		<div class="start_loader"></div>
+<!--*********************menu*****************************-->
+		<header class="wrap">
+            <!-- Mobile Menu -->
+			<div class="mobile-menu visible-tablet">
+                    <a href="#"></a>
+					<ul class="mobile-ul clearfix">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="blog-detail.html">Blog detail</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Download CV</a>
+							<ul>
+								<li><a href="assets/content/CV.pdf">PDF</a></li>
+                                <li><a href="assets/content/CV.docx">DOCX</a></li>
+								<li><a href="https://www.linkedin.com/profile/view?id=404718129">LinkedIn</a></li>
+								<li><a href="https://www.facebook.com/sven.molhuijsen.3">Facebook</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+            <!-- Desktop Menu -->
+			<div class="menu-area wrap hidden-tablet">
+				<div class="menu">
+					<ul class="clearfix">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#contact">Contact</a></li>
+<!--
+						<li><a href="blog.html">Blog</a>
+							<ul>
+								<li><a href="blog-detail.html">Blog detail</a></li>
+							</ul>
+						</li>
+-->
+						<li><a href="#">Download CV</a>
+							<ul>
+								<li><a href="assets/content/paragraphs.pdf">PDF</a></li>
+								<li><a href="assets/content/paragraphs.docx">Word</a></li>
+								<li><a href="#">LinkedIn</a></li>
+								<li><a href="https://www.facebook.com/pages/PixFlow/107145602731642">Facebook</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="menu-button-minus"></div>
+			</div>
+            <!-- Header Definition -->
+			<div class="header-titles">
+				<div class="name-title">SVEN MOLHUIJSEN</div>
+				<span id="title-seperator">|</span>
+				<div class="job-title hidden-vertical-mobile">All round developer</div>
+			</div>
+		</header>
+<!--***************************Main Part**********************-->
+	<div class="mainpart">
+		<div class="page first-block hidden-tablet">
+					<!-- Demo Panel -->
+		</div>
+<!--***************************HOME**********************-->
+		<div class="page wrap" id="home">
+			<img src="assets/content/avatar.jpg" alt="my-photo" class="mypic"/>
+			<div class="row">
+				<div class="span6">
+					<div class="about-text">
+						<!-- Title -->
+						<div class="about-title">
+							<h3>Sven Molhuijsen</h3>
+							<h6>All round developer</h6>
+						</div>
+						<!-- Title End -->
+
+						<!-- biography -->
+						<div class="about-paragraph">
+				            <p>
+                                Ik ben Sven, 18 jaar en programmeer Web, Android en Microsoft .NET applicaties. Ik zit al van kleins af aan achter de computer en heb altijd al met bewondering naar programmeurs gekeken. Daarom besloot ik op mijn 16e de opleiding applicatieontwikkelaar MBO niv. 4 te kiezen, nu, 3 jaar later is dit mijn portfolio.
+							</p>
+						</div>
+						<!-- Author biography End -->
+
+						<!-- signiture -->
+						<div class="signiture">
+							<img src="assets/content/signiture.png" alt="signiture"/>
+						</div>
+						<!-- signiture End -->
+					</div>
+				</div>
+			</div>
+		</div>
+<!--***************************PORTFOLIO**********************-->
+				<div class="page wrap" id="portfolio">
+					<div class="page-title">
+						<h2>portfolio</h2>
+					</div>
+					<!-- portfolio navigation -->
+					<div class="span12 portfolio-header">
+						<ul id="filters" class="subnavigation clearfix">
+							<li><a class="current" data-filter="*" href="#">Bekijk alles</a></li>
+							<li><a href="#" data-filter=".android" title="View all items filed under Android">Android</a></li>
+							<li><a href="#" data-filter=".web" title="View all items filed under Web">Web</a></li>
+							<li><a href="#" data-filter=".microsoft" title="View all items filed under Microsoft">Microsoft</a></li>
+                            <li><a href="#" data-filter=".data" title="View all items filed under Data">Data</a></li>
+						</ul>
+					</div>
+					<!-- portfolio content -->
+					<div class="span12 portfolio">
+						<div class="isotope">
+							<!--Portfolio Item image -->
+							<div  class="item portfolio-post android isotope-item" data-id="item1">
+								<a class="popup-with-form item-image" href="#image-post-1" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										Brawser
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-1.png"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-1" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-1.png" alt="portfolio popup"/>
+								<h5>Brawser Internetbrowser</h5>
+								<p>Brawser is een simpele brawser als onderdeel van mijn Androidexperience project, om de kennis over android, en java, te verbeteren, je kunt er op dit moment pagina's mee bekijken en zoeken.</p>
+							</div>
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+
+				            <!--Portfolio Item image -->
+							<div  class="item portfolio-post android microsoft isotope-item" data-id="item2">
+								<a class="popup-with-form item-image" href="#image-post-2" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										Android wear toolkit
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-2.jpg"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-2" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-2.jpg" alt="portfolio popup"/>
+								<h5>Android wear toolkit</h5>
+								<p>De android wear toolkit is ervoor bedoeld om gewone android apps op je android wear smartwatch te kunnen zetten. Het is een veelgebruikt programma, wat op dit moment zon 4000 keer is gedownload</p>
+							</div>
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+
+                            <!--Portfolio Item image -->
+							<div  class="item portfolio-post web isotope-item" data-id="item3">
+								<a class="popup-with-form item-image" href="#image-post-3" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										lentiggini.nl
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-3.jpg"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-3" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-3.jpg" alt="portfolio popup"/>
+								<h5>lentiginni.nl</h5>
+								<p>Deze site heb ik gemaakt op stage volgens een aangeleverd design. er kunnen producten gezocht en bekeken worden en </p>
+							</div>
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+
+                            <!--Portfolio Item image -->
+							<div  class="item portfolio-post web isotope-item" data-id="item4">
+								<a class="popup-with-form item-image" href="#image-post-4" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										grondwerkeijking.nl
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-4.jpg"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-4" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-4.jpg" alt="portfolio popup"/>
+								<h5>grondwerkeijking.nl</h5>
+								<p>Deze site heb ik gemaakt in mijn stageperiode bij Mindworkz, Het is een website gebasseerd op het concrete5 CMS. Daardoor is hij heel simpel aan te passen voor de administrator</p>
+							</div>
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+
+               <!--Portfolio Item image -->
+							<div  class="item portfolio-post web data isotope-item" data-id="item5">
+								<a class="popup-with-form item-image" href="#image-post-5" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										Eindexamenproject MBO 4
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-5.png"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-5" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-5.png" alt="portfolio popup"/>
+								<h5>Eindexamenproject MBO 4</h5>
+								<p>Dit project moesten we in 6 uur af maken, hirdoor zien sommige onderdelen er misschien niet zo goed uit, en de code is ook af en toe wat slordig.Maar er zitten een aantal belangrijke functionaliteiten in, denk aan een database, inlogfunctie, en producten bewerken</p>
+							</div>
+
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+                                <!--Portfolio Item image -->
+							<div  class="item portfolio-post web data isotope-item" data-id="item6">
+								<a class="popup-with-form item-image" href="#image-post-6" title="Portfolio Item">
+									<div class="frame-overlay"></div>
+									<div class="portfolio-meta">
+										Fysioapp
+									</div>
+									<div class="item-image">
+										<img src="assets/content/portfolio-6.png"  alt="Portfolio Item" title="Portfolio Item">
+									</div>
+								</a>
+							</div>
+							<!--Portfolio Item  image popup -->
+							<div id="image-post-6" class="mfp-hide zoom-anim-dialog white-popup-block">
+								<img src="assets/content/portfolio-6.png" alt="portfolio popup"/>
+								<h5>Fysioapp</h5>
+								<p>In dit project voor gilde hebben we geprobeerd in verschillende groepen zo ver mogelijk te komen met het ontwikkelen van een app voor een fysiotherapeut.
+                                Hoewel onze groep al erg ver was met de front end, moesten we wachten op een projectgroep in roermond, helaas is dit project vroegtijdig gestopt doordat niet alle groepen het schema konden aanhouden</p>
+							</div>
+							<div class="clearfix"></div>
+							<!-- End:Portfolio Item  image popup -->
+
+						</div>
+					</div>
+					<!--Portfolio Loadmore -->
+					<div class="span12 loadmore">
+						<a href="#">
+							<span>+</span>
+							<p>Bekijk meer</p>
+						</a>
+					</div>
+					<!--End: Portfolio Loadmore -->
+				</div>
+
+<!--************************RESUME********************-->
+				<div class="page wrap" id="resume">
+					<!-- skills Charts -->
+					<div class="charts clearfix">
+						<!-- Subject for all charts -->
+						<div class="chart-title">
+							<h4>Skills</h4>
+						</div>
+						<!-- End: Subject for all charts -->
+						<!-- carousel of charts -->
+						<ul class="car hideme">
+                            <!-- 1st chart -->
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="75"><span>75%</span></div>
+									<p>Android</p>
+								</div>
+                            </li>
+
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="70"><span>70%</span></div>
+									<p>Microsoft .NET</p>
+								</div>
+                            </li>
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="90"><span>90%</span></div>
+									<p>Web</p>
+								</div>
+                            </li>
+                            <li>
+								<div class="chartbox">
+									<div class="chart hideme" data-percent="99"><span>99%</span></div>
+									<p>Data</p>
+								</div>
+                            </li>
+
+                        </ul>
+						<!-- End: carousel of charts -->
+                        <div class="clearfix"></div>
+                        <a id="prev2" class="resume-skill-prev"  href="#"><img src="assets/img/back-resume.png" alt="prev"></a>
+                        <a id="next2" class="resume-skill-next"  href="#"><img src="assets/img/next-resume.png" alt="next"></a>
+					</div>
+                    <!-- End: skills Charts -->
+                    <!-- List of your Experiences -->
+                    <div class="skills clearfix">
+                        <span class="resume-seperator"></span>
+                        <!-- Title for this part -->
+                        <div class="chart-title skills-title">
+                            <h4>Werk<br/>Ervaring</h4>
+                        </div>
+                        <!-- End: Title for this part -->
+                        <div id="resume-definition">
+							<!-- carousel of experiences -->
+                            <ul class=" experiences clearfix">
+                                <li>
+                                    <div class="exp">
+                                        <a class="popup-with-form" href="#work_experience_1">
+                                            <div class="work-title">Mindworkz</div>
+                                            <div class="work-title period">lente-zomer 2014</div>
+                                        </a>
+                                        <!-- Exp. definition -->
+                                        <div id="work_experience_1" class="mfp-hide zoom-anim-dialog white-popup-block">
+                                            <img src="assets/content/resume-1.jpg" alt="resume-popup">
+                                            <h5>Webdeveloper</h5>
+                                            <p>
+											Mindworkz was het eerste bedrijf waar ik stage liep, hier heb ik veel kennis opgedaan en dit heeft me geholpen tijdens de rest van mijn schoolcarriere.
+                                            Hier heb ik 2 websites gemaakt, en ook meegeholpen aan verschillende andere projecten.
+											</p>
+                                        </div>
+                                        <!-- Exp. definition End -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp">
+                                        <a class="popup-with-form" href="#work_experience_2">
+                                            <div class="work-title">Eventure</div>
+                                            <div class="work-title period">2015-heden</div>
+                                        </a>
+                                        <!-- Exp. definition -->
+                                        <div id="work_experience_2" class="mfp-hide zoom-anim-dialog white-popup-block">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Ldeec04GJXw?start=444&controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>                                            <h5>Crew</h5>
+                                            <p>
+											Tommorowland, Mysteryland, Concert at sea, en meer... Allemaal festivals waar ik werk. Dit is naast mijn werk ook een hobby, waarbij ik achter de kassa of bar werk, of leiding geef.
+											</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp">
+                                        <a class="popup-with-form" href="#work_experience_3">
+                                            <div class="work-title">Xenos</div>
+                                            <div class="work-title period">2015-heden</div>
+                                        </a>
+                                        <!-- Exp. definition -->
+                                        <div id="work_experience_3" class="mfp-hide zoom-anim-dialog white-popup-block">
+                                            <img src="assets/content/resume-3.jpg" alt="resume-popup">
+                                            <h5>Vul/kassamedewerker</h5>
+                                            <p>
+											Als je student bent geweest zul je t merken, je hebt nooit genoeg geld. Daarom werk ik bij de Xenos, hoewel het werk af en toe zwaar of saai is maken mijn leuke collega's en klanten t toch leuk.
+											</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="exp">
+                                        <!-- Exp. definition End -->
+                                            <a class="popup-with-form" href="#work_experience_4">
+                                            <div class="work-title">Blokker</div>
+                                            <div class="work-title period">2014-2015</div>
+                                        </a>
+                                        <!-- Exp. definition -->
+                                        <div id="work_experience_4" class="mfp-hide zoom-anim-dialog white-popup-block">
+                                            <img src="assets/content/resume-4.jpg" alt="resume-popup">
+                                            <h5>Vulploegmedewerker</h5>
+                                            <p>
+											Hier heb ik voor het eerst kennis gemaakt met het werken in een echt bedrijf, helaas kon ik er door een reorganisatie weg, waarna ik doorging naar de Xenos.
+											</p>
+                                        </div>
+                                    </div>
+                                        <!-- Exp. definition End -->
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                        <a id="resume-exp-prev" class="resume-skill-prev"  href="#"><img src="assets/img/back-resume.png"  alt="prev"></a>
+                        <a id="resume-exp-next" class="resume-skill-next"  href="#"><img src="assets/img/next-resume.png"  alt="next"></a>
+                    </div>
+                    <!-- List of your Experiences -->
+				</div>
+
+<!--************************contact************************-->
+				<div class="page wrap" id="contact">
+					<div class="clearfix">
+						<div class="span5 contact-info">
+							<div class="clearfix">
+								<div class="contact-title"><h2>contact</h2></div>
+                                <!-- Socila Links -->
+								<ul class="socials clearfix">
+									<li class="facebook"><a href="https://www.facebook.com/sven.molhuijsen.3"></a></li>
+									<li class="twitter"><a href="https://twitter.com/SvenVenray"></a></li>
+									<li class="plus"><a href="https://plus.google.com/b/100176580015174067912/100176580015174067912/posts"></a></li>
+									<li class="linkedin"><a href="https://www.linkedin.com/profile/view?id=404718129"></a></li>
+								</ul>
+                                <!--End: Socila Links-->
+							</div>
+                            <!-- Contact Info -->
+							<div class="contact-add">
+								<div><span>Adres: </span><span>Aronskelk 46, Venray, Nederland</span></div>
+								<div><span>Mobiel: </span><span>06 - 34194230</span></div>
+								<div><span>e-mail: </span><span>s.molhuijsen@gmail.com</span></div>
+							</div>
+                            <!-- End: Contact Info -->
+                            <!--Contact Form-->
+                            <div id="respond_wrap">
+                                <div id="respond">
+                                    <form id="comment_form" method="post" class="contact" action="https://demo.sacredpixel.com/html/profession/lib/contact.php">
+                                        <fieldset>
+                                            <input type="hidden" name="action" value="contact_form"  />
+                                            <div class="text_input" id="name">
+                                                <input id="formname" tabindex="1" type="text" name="name" value="" placeholder="Uw naam" />
+                                                <span class="nameError hidden"></span>
+                                            </div>
+                                            <div class="text_input" id="email">
+                                                <input id="formmail" tabindex="2" type="text" name="email" value=""  placeholder="Email Adres" />
+                                                <span class="emailError hidden"></span>
+                                            </div>
+											<div class='clearfix'></div>
+                                            <div class="text_input">
+                                                <input id="formcompany" tabindex="3" type="text" name="company" value="" placeholder="Bedrijfsnaam" />
+                                                <span class="companyError hidden"></span>
+                                            </div>
+                                            <div class="textarea_input">
+                                                <textarea id="formmessage" tabindex="4" rows="10" cols="58" name="comment"  placeholder="Uw bericht"></textarea>
+                                                <span class="commentError hidden"></span>
+                                            </div>
+
+                                            <div class="btn send-button">
+                                                <input tabindex="5" type="submit" value="Verstuur"/>
+                                            </div>
+                                            <div class="loader hidden"></div>
+                                            <div class="AjaxError hidden">An error has been occurred while sending message.</div>
+                                            <div class="AjaxSuccess hidden">Your message has been sent successfully.</div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <!--Contact Form End-->
+						</div>
+						<div class="gmap3 span7" id="map"></div>
+					</div>
+				</div>
+
+<!--************************last white part************************-->
+				<div class="page first-block" ></div>
+	</div>
+	<!--End: mainpart -->
+
+<!--************************Footer************************-->
+	<footer class="wrap">
+		<div class="footer-center clearfix">
+			<div class="footer-border"></div>
+			<div class="copyright">
+				<span>Copyright © 2016. All rights reserved</span>
+			</div>
+			<div class="footer-border"></div>
+		</div>
+	</footer>
+
+<!--************************scripts******************-->
+	<script  type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+	<script  type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script  type="text/javascript" src="assets/js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/js/gmap3.js"></script>
+	<script  type="text/javascript" src="assets/js/jquery.nicescroll.js"></script>
+	<script  type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script  type="text/javascript"  src="assets/js/jquery.cycle.lite.js"></script>
+	<script  type="text/javascript"  src="assets/js/jquery.cycle2.swipe.min.js"></script>
+	<script  type="text/javascript"  src="assets/js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="assets/js/excanvas.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easy-pie-chart.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js" ></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript">
+		var ZoomLevel=3,
+        CITY_MAP_CENTER_LAT= 51.737208,
+        CITY_MAP_CENTER_LNG=7.166729;
+	</script>
+</body>
+</html>
