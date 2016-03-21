@@ -576,7 +576,7 @@ footer
 	background-color:#ffae00;
 	position:absolute;
 	z-index:1;
-	background-image:url(assets/img/plus.png);
+	background-image:url(../img/plus.png);
 	background-repeat:no-repeat;
 	text-align:center;
 	clear:both;
@@ -586,7 +586,7 @@ footer
 }
 .menu-button-plus
 {
-	background-image:url(assets/img/minus.png);
+	background-image:url(../img/minus.png);
 }
 .dropdown
 {
@@ -612,7 +612,7 @@ footer
     width:67px;
     height:67px;
     background-color:#ffae00;
-    background-image:url(assets/img/mobile-button.png);
+    background-image:url(../img/mobile-button.png);
     display: block;
 }
 .mobile-ul
@@ -1233,7 +1233,7 @@ footer
 }
 #comment_form .loader
 {
-       background:url(assets/img/Loading24_white.gif) no-repeat;
+       background:url(../img/Loading24_white.gif) no-repeat;
        height:24px;
        margin-top:15px;
        width:24px
@@ -1266,7 +1266,7 @@ footer
 #contact #comment_form .commentError,
 #contact #comment_form .companyError
 {
-    background:transparent url(assets/img/form_error.png) no-repeat center center;
+    background:transparent url(../img/form_error.png) no-repeat center center;
     height:14px;
     position:absolute;
     right:-10px;
@@ -1276,7 +1276,7 @@ footer
 }
 #comment_form .loader
 {
-    background:url(assets/img/Loading24_white.gif) no-repeat;
+    background:url(../img/Loading24_white.gif) no-repeat;
     height:24px;
     margin-top:5px;
     width:24px
@@ -1289,171 +1289,171 @@ footer
 }
 .facebook a
 {
-	background-image:url(assets/img/socials/facebook_B.png);
+	background-image:url(../img/socials/facebook_B.png);
 }
 .facebook a:hover
 {
-	background-image:url(assets/img/socials/facebook_W.png);
+	background-image:url(../img/socials/facebook_W.png);
 }
 .twitter a
 {
-	background-image:url(assets/img/socials/twitter_B.png);
+	background-image:url(../img/socials/twitter_B.png);
 }
 .twitter a:hover
 {
-	background-image:url(assets/img/socials/twitter_W.png);
+	background-image:url(../img/socials/twitter_W.png);
 }
 .instagram a
 {
-	background-image:url(assets/img/socials/instagram_B.png);
+	background-image:url(../img/socials/instagram_B.png);
 }
 .instagram a:hover
 {
-	background-image:url(assets/img/socials/instagram_W.png);
+	background-image:url(../img/socials/instagram_W.png);
 }
 .plus a
 {
-	background-image:url(assets/img/socials/plus_B.png);
+	background-image:url(../img/socials/plus_B.png);
 }
 .plus a:hover
 {
-	background-image:url(assets/img/socials/plus_W.png);
+	background-image:url(../img/socials/plus_W.png);
 }
 .vimeo a
 {
-	background-image:url(assets/img/socials/vimeo_B.png);
+	background-image:url(../img/socials/vimeo_B.png);
 }
 .vimeo a:hover
 {
-	background-image:url(assets/img/socials/vimeo_W.png);
+	background-image:url(../img/socials/vimeo_W.png);
 }
 .flickr a
 {
-	background-image:url(assets/img/socials/flickr_B.png);
+	background-image:url(../img/socials/flickr_B.png);
 }
 .flickr a:hover
 {
-	background-image:url(assets/img/socials/flickr_W.png);
+	background-image:url(../img/socials/flickr_W.png);
 }
 .reddit a
 {
-	background-image:url(assets/img/socials/reddit_B.png);
+	background-image:url(../img/socials/reddit_B.png);
 }
 .reddit a:hover
 {
-	background-image:url(assets/img/socials/reddit_W.png);
+	background-image:url(../img/socials/reddit_W.png);
 }
 .orkut a
 {
-	background-image:url(assets/img/socials/orkut_B.png);
+	background-image:url(../img/socials/orkut_B.png);
 }
 .orkut a:hover
 {
-	background-image:url(assets/img/socials/orkut_W.png);
+	background-image:url(../img/socials/orkut_W.png);
 }
 .linkedin a
 {
-	background-image:url(assets/img/socials/linkedin_B.png);
+	background-image:url(../img/socials/linkedin_B.png);
 }
 .linkedin a:hover
 {
-	background-image:url(assets/img/socials/linkedin_W.png);
+	background-image:url(../img/socials/linkedin_W.png);
 }
 .lastfm a
 {
-	background-image:url(assets/img/socials/lastfm_B.png);
+	background-image:url(../img/socials/lastfm_B.png);
 }
 .lastfm a:hover
 {
-	background-image:url(assets/img/socials/lastfm_W.png);
+	background-image:url(../img/socials/lastfm_W.png);
 }
 .gowalla a
 {
-	background-image:url(assets/img/socials/gowalla_B.png);
+	background-image:url(../img/socials/gowalla_B.png);
 }
 .gowalla a:hover
 {
-	background-image:url(assets/img/socials/gowalla_W.png);
+	background-image:url(../img/socials/gowalla_W.png);
 }
 .forrst a
 {
-	background-image:url(assets/img/socials/forrst_B.png);
+	background-image:url(../img/socials/forrst_B.png);
 }
 .forrst a:hover
 {
-	background-image:url(assets/img/socials/forrst_W.png);
+	background-image:url(../img/socials/forrst_W.png);
 }
 .evernote
 {
-	background-image:url(assets/img/socials/evernote_B.png);
+	background-image:url(../img/socials/evernote_B.png);
 }
 .evernote a:hover
 {
-	background-image:url(assets/img/socials/evernote_W.png);
+	background-image:url(../img/socials/evernote_W.png);
 }
 .dribbble a
 {
-	background-image:url(assets/img/socials/dribbble_B.png);
+	background-image:url(../img/socials/dribbble_B.png);
 }
 .dribbble a:hover
 {
-	background-image:url(assets/img/socials/dribbble_w.png);
+	background-image:url(../img/socials/dribbble_w.png);
 }
 .digg a
 {
-	background-image:url(assets/img/socials/digg_B.png);
+	background-image:url(../img/socials/digg_B.png);
 }
 .digg a:hover
 {
-	background-image:url(assets/img/socials/digg_W.png);
+	background-image:url(../img/socials/digg_W.png);
 }
 .deviantart a
 {
-	background-image:url(assets/img/socials/deviantart_B.png);
+	background-image:url(../img/socials/deviantart_B.png);
 }
 .deviantart a:hover
 {
-	background-image:url(assets/img/socials/deviantart_W.png);
+	background-image:url(../img/socials/deviantart_W.png);
 }
 .behance a
 {
-	background-image:url(assets/img/socials/behance_B.png);
+	background-image:url(../img/socials/behance_B.png);
 }
 .behance a:hover
 {
-	background-image:url(assets/img/socials/behance_W.png);
+	background-image:url(../img/socials/behance_W.png);
 }
 .zerply a
 {
-	background-image:url(assets/img/socials/zerply_B.png);
+	background-image:url(../img/socials/zerply_B.png);
 }
 .zerply a:hover
 {
-	background-image:url(assets/img/socials/zerply_W.png);
+	background-image:url(../img/socials/zerply_W.png);
 }
 .skype a
 {
-	background-image:url(assets/img/socials/skype_B.png);
+	background-image:url(../img/socials/skype_B.png);
 }
 .skype a:hover
 {
-	background-image:url(assets/img/socials/skype_W.png);
+	background-image:url(../img/socials/skype_W.png);
 }
 .yahoo a
 {
-	background-image:url(assets/img/socials/yahoo_B.png);
+	background-image:url(../img/socials/yahoo_B.png);
 }
 .yahoo a:hover
 {
-	background-image:url(assets/img/socials/yahoo_w.png);
+	background-image:url(../img/socials/yahoo_w.png);
 }
 .youTube a
 {
-	background-image:url(assets/img/socials/youtube_B.png);
+	background-image:url(../img/socials/youtube_B.png);
 }
 .youTube a:hover
 {
-	background-image:url(assets/img/socials/youtube_W.png);
+	background-image:url(../img/socials/youtube_W.png);
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1807,7 +1807,7 @@ footer
 
 #commentform .form_errors li
 {
-    background:transparent url(assets/img/form_error.png) no-repeat left center;
+    background:transparent url(../img/form_error.png) no-repeat left center;
     padding-left:21px
 }
 
@@ -1909,7 +1909,7 @@ footer
 .post-pagination .next-page-link
 {
     text-indent: -10000px;
-    background-image:url(assets/img/pagination-next-prev.png);
+    background-image:url(../img/pagination-next-prev.png);
 }
 .post-pagination .next-page-link
 {
@@ -1978,7 +1978,7 @@ color: #fff;
 
 blockquote
 {
-	background:transparent url(assets/img/quote_black.png) no-repeat scroll left top;
+	background:transparent url(../img/quote_black.png) no-repeat scroll left top;
 	font-family:'Open Sans', sans-serif;
 	padding:22px 0px;
 	position:relative;
@@ -1993,7 +1993,7 @@ blockquote p
 
 blockquote .end
 {
-	background:transparent url(assets/img/quote_black.png) no-repeat scroll;
+	background:transparent url(../img/quote_black.png) no-repeat scroll;
 	bottom:0;
 	height:19px;
 	position:absolute;
@@ -2088,7 +2088,7 @@ blockquote .end
 
 button.mfp-close, button.mfp-arrow
 {
-	width: 30px; height: 30px; background: url(assets/img/prettyPhoto/default/sprite.png) 2px 1px no-repeat!important;
+	width: 30px; height: 30px; background: url(../img/prettyPhoto/default/sprite.png) 2px 1px no-repeat!important;
 	cursor: pointer;
 	text-indent:999px;
 	margin-right:-21px;
@@ -2132,13 +2132,13 @@ div.pp_default .pp_description{ color:#000;}
 .cycle-prev
 {
 	left: 0;
-	background: url(assets/img/prettyPhoto/default/left.png) 50% 50% no-repeat;
+	background: url(../img/prettyPhoto/default/left.png) 50% 50% no-repeat;
 }
 
 .cycle-next
 {
 	right: 0;
-	background: url(assets/img/prettyPhoto/default/right.png) 50% 50% no-repeat;
+	background: url(../img/prettyPhoto/default/right.png) 50% 50% no-repeat;
 }
 
 .cycle-prev:hover, .cycle-next:hover
@@ -2158,6 +2158,403 @@ div.pp_default .pp_description{ color:#000;}
 	right: 0;
 	bottom: 0;
 	z-index: 99999;
-	background:#fff url(assets/img/white_loader.gif) no-repeat center center;
+	background:#fff url(../img/white_loader.gif) no-repeat center center;
 }
-
+@media (min-width: 768px) and (max-width: 979px) {
+    .page {
+        margin-left: 0;
+    }
+    .menu-area {
+        left: 102px;
+        width: 700px;
+    }
+    .menu {
+        width: 700px;
+    }
+    .menu-button-minus {
+        left: 657px;
+    }
+}
+@media (max-width: 768px) {
+    .hidden-desktop {
+        display: inherit !important;
+    }
+    .visible-desktop {
+        display: none !important;
+    }
+    .hidden-tablet {
+        display: none !important;
+    }
+    .visible-tablet {
+        display: block !important;
+    }
+    html,
+    body {
+        max-height: none;
+    }
+    header {
+        height: 67px;
+    }
+    footer {
+        height: 30px;
+    }
+    .mainpart {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        margin: auto;
+        white-space: normal;
+    }
+    .page {
+        display: block;
+        height: 100%;
+        max-height: none;
+        margin-left: 0;
+    }
+    [class*='span'] {
+        display: block;
+        float: none;
+        margin-left: 0;
+    }
+    .span12 {
+        width: 100%;
+    }
+    .mypic {
+        float: none;
+        width: 100%;
+    }
+    #portfolio {
+        text-align: center;
+    }
+    .portfolio {
+        display: inline-block;
+        width: 80%;
+        height: 100%;
+        padding: 0 10px;
+    }
+    .two-column {
+        margin: auto;
+    }
+    .wrap {
+        width: 100%;
+    }
+    #home {
+        background-image: none;
+    }
+    #home > img {
+        margin: auto;
+    }
+    .offset6 {
+        margin: 0;
+    }
+    .span6 {
+        width: 100%;
+    }
+    .row {
+        margin-left: 0;
+    }
+    .about-text {
+        margin: 0 40px;
+    }
+    .page-title {
+        position: static;
+        text-align: center;
+    }
+    .page-title h2 {
+        margin: 25px 0 0;
+    }
+    .portfolio-header {
+        padding: 0;
+        text-align: center;
+    }
+    .subnavigation {
+        top: 5px;
+        display: inline-block;
+    }
+    .about-title h3 {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .about-title h6 {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .about-paragraph {
+        height: 160px !important;
+        margin: 35px auto;
+        text-align: center;
+    }
+    .about-text {
+        padding-top: 40px;
+    }
+    .signiture {
+        margin: 0 0 30px;
+        text-align: center;
+    }
+    .chart-title {
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .chart-title h4 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    #resume-exp-next,
+    #resume-exp-prev {
+        top: 220px;
+    }
+    #resume-exp-prev {
+        left: 45%;
+    }
+    #resume-exp-next {
+        left: 50%;
+    }
+    .skills {
+        margin-top: 60px;
+    }
+    .chartbox {
+        margin-top: 60px;
+    }
+    .charts {
+        margin-top: 0;
+    }
+    .loadmore {
+        margin-bottom: 14px;
+    }
+    .hideme {
+        width: 400px;
+        margin: auto;
+    }
+    #resume {
+        padding-bottom: 60px;
+    }
+    .resume-seperator {
+        width: 100%;
+    }
+    #map {
+        width: 100%;
+    }
+    .contact-info {
+        padding-bottom: 30px;
+    }
+    .contact-add {
+        border-left: none;
+    }
+    .contact-info div {
+        text-align: center;
+    }
+    .experiences {
+        display: block;
+        width: 450px;
+        margin: auto;
+    }
+    .exp {
+        margin-left: 40px;
+    }
+    .contact-title,
+    .socials {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .socials {
+        display: inline-block;
+    }
+    .contact-content {
+        text-align: center;
+    }
+    .contact-add {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 0;
+        text-align: center;
+    }
+    .contact-form {
+        display: inline-block;
+        margin-top: 35px;
+    }
+    .input {
+        display: block;
+    }
+    .i-email {
+        display: inline-block;
+        margin-left: 7px;
+    }
+    .i-name {
+        float: left;
+    }
+    .btn {
+        float: none;
+        margin: 25px auto 0;
+    }
+    .span5 {
+        width: auto;
+    }
+    .menu-area {
+        left: 30px;
+        width: 90% !important;
+    }
+    .menu {
+        width: 93%;
+    }
+    .menu-button-minus {
+        left: 94%;
+    }
+    .header-titles {
+        left: 10px;
+    }
+    .name-title {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .job-title {
+        font-size: 14px;
+    }
+    .resume-skill-next {
+        top: 220px;
+        left: 53%;
+    }
+    .resume-skill-prev {
+        top: 220px;
+        left: 48%;
+    }
+    .search input[type='submit'] {
+        width: 21%;
+    }
+    #contact #respond_wrap fieldset {
+        float: none;
+    }
+    #resume-definition {
+        width: 100%;
+    }
+    .experiences {
+        width: inherit;
+    }
+}
+@media (max-width: 650px) {
+    .job-title {
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+    .name-title {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .sidebar {
+        padding-left: 0;
+        border-left: none;
+    }
+}
+@media (max-width: 480px) {
+    .hidden-phone {
+        display: none !important;
+    }
+    .visible-phone {
+        display: inherit !important;
+    }
+    .footer-center {
+        width: 300px;
+    }
+    .footer-border {
+        display: none;
+    }
+    .header-titles {
+        bottom: 14px;
+        left: 10px;
+        width: auto;
+        letter-spacing: 0;
+    }
+    .name-title {
+        font-size: 25px;
+    }
+    #title-seperator {
+        visibility: hidden;
+    }
+    .job-title {
+        font-size: 12px;
+        float: none;
+    }
+    .hideme {
+        width: auto;
+    }
+    .chart-title {
+        margin-bottom: 35px;
+    }
+    .chart-title h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .resume-skill-next {
+        left: 55%;
+    }
+    .resume-skill-prev {
+        left: 46%;
+    }
+    .chartbox {
+        float: none;
+    }
+    .chart {
+        margin: auto;
+    }
+    .experiences {
+        width: auto;
+    }
+    .exp {
+        float: none;
+        width: 220px;
+        margin: 45px auto auto;
+    }
+    .work-title {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .period {
+        font-size: 19px;
+    }
+    .about-title h3 {
+        font-size: 30px;
+    }
+    .about-title h6 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #resume-exp-prev {
+        left: 39%;
+    }
+    #resume-exp-next {
+        left: 50%;
+    }
+    #resume-exp-prev,
+    #resume-exp-next {
+        top: 150px;
+    }
+    .resume-skill-prev,
+    .resume-skill-next {
+        top: 150px;
+    }
+    #contact #respond_wrap fieldset {
+        width: auto;
+    }
+}
+@media (max-width: 345px) {
+    .name-title {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .job-title {
+        font-size: 9px;
+    }
+    .header-titles {
+        bottom: 14px;
+        letter-spacing: 0;
+    }
+    #email {
+        margin-left: 22px;
+    }
+}
