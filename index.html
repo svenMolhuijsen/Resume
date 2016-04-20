@@ -13,8 +13,6 @@
 <!--*********************body*****************************-->
 
 <body>
-    <!-- loader -->
-    <div class="start_loader"></div>
     <!--*********************menu*****************************-->
     <header class="wrap">
         <!-- Mobile Menu -->
@@ -478,17 +476,17 @@
 
     <!--************************scripts******************-->
     <script type="text/javascript">
-        var ZoomLevel = 3,
-            CITY_MAP_CENTER_LAT = 51.737208,
-            CITY_MAP_CENTER_LNG = 7.166729;
-        (function() {
+        var ZoomLevel = 3
+            , CITY_MAP_CENTER_LAT = 51.737208
+            , CITY_MAP_CENTER_LNG = 7.166729;
+        (function () {
             var videos = document.getElementsByClassName("youtube-player");
             for (var video = 0; video < videos.length; video++) {
                 var player = videos[video];
                 var videoid = player.getAttribute("youtube-id");
                 player.setAttribute("style", "display: block; padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: pointer;");
                 player.setAttribute("onclick", `this.innerHTML = '<iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" src="//www.youtube.com/embed/' + this.getAttribute("youtube-id") + '?autoplay=1&amp;autohide=2&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1&amp;controls=1&amp;showinfo=0" frameborder="0" id="youtube-iframe"></iframe>';`);
-                player.innerHTML = '<img style="bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: auto" class="youtube-thumb" src="//i.ytimg.com/vi/' + videoid + '/hqdefault.jpg"><div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute;" class="play-button"><svg fill="#CFD8DC" height="72" viewBox="0 0 24 24" width="72" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg></div>';
+                player.innerHTML = '<div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute;" class="play-button"><svg fill="#CFD8DC" height="72" viewBox="0 0 24 24" width="72" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg></div>';
             }
         })();
     </script>
